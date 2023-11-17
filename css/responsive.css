@@ -1,0 +1,132 @@
+@media(max-width: 1222px){
+
+    #bottom-boxes{
+       display: grid;
+       gap: 50px;
+       grid-template-columns: 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media(max-width: 1030px){
+    
+    .home-contents{
+        flex-direction: column;
+    }
+
+    .home-info{
+        padding-bottom: 70px;
+    }
+
+    .top-product{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+@media(max-width: 920px){
+   
+    #nav-items, #nav-icons{
+        display: none;
+    }
+
+
+    #navbar-open{
+        display: inline-block;
+    }
+
+    .nav-btn{
+        background-color: #0b0b0b;
+        display: inline-block;
+        border: none;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+    }
+    
+    .nav-btn img{
+        width: 20px;
+        background-color: #0b0b0b;  
+    }  
+}
+
+@media(max-width:866px){
+    #client-box{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+}
+
+@media(max-width:844px){
+    #news{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 830px){
+
+    #bottom-boxes{
+       display: grid;
+       gap: 50px;
+       grid-template-columns: 1fr;
+       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    #view{
+        margin-left: 20%;
+    }
+
+}
+
+
+
+@media(max-width:559px){
+    #title,#subtitle{
+        width: 400px;
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:502px){
+    #title{
+        font-size: 40px;
+        width: 300px;
+    }
+
+    #subtitle{
+        width: 300px;
+    }
+
+    #home-form.input{
+        padding: 10px 80px  10px 56px;
+    }
+
+    #search{
+        padding: 10px 80px  10px 56px;
+    }
+
+    #home-watch img{ 
+        width: 300px;
+        height: 400px;
+    }
+
+    #news-input{
+        padding: 10px 80px 20px 30px;
+    }
+}
+
+@media(max-width:440px){
+    #client-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #home-watch img{
+        width: 200px;
+        height: 200px;
+    }
+}
